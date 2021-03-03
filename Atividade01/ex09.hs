@@ -1,0 +1,1 @@
+produtoEscalar xs ys = sum [i*v | (i,v) <- zip xs ys]
