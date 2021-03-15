@@ -1,3 +1,4 @@
+--Losta de exercícios sobre funções recursivas, funções de alta ordem e compreensão de listas
 import Data.List
 
 gerarListaDupla :: (Num b, Enum b) => [a] -> [(a, b)]
