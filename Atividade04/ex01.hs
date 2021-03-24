@@ -1,6 +1,6 @@
 --Lista de exercícios sobre tipos e classes
 
-data Nat = Zero | Suc Nat deriving Show
+data Nat = Zero | Suc Nat
 
 somar :: Nat -> Nat -> Nat
 somar Zero n = n
