@@ -1,10 +1,3 @@
---aplicação "comum"
-putStr' :: String -> IO ()
-putStr' [] = return ()
-putStr' (x:xs) = do putChar x
-                    putStr' xs
-
-
 --aplicação com compreensão de lista e sequence
 putStr'' :: String -> IO ()
-putStr'' xs = sequence_ [putChar x | x <- xs]
+putStr'' xs = sequence_ (map putChar [x | x <- xs])
